@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Cat Anatomy</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>Feline Skeletal System</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+        </nav>
+    </header>
+    <main>
+        <!-- 3D Model -->
+        <div class="display-area">
+            <canvas class="webgl"></canvas>
+        </div>
+
+        <!-- sidebar -->
+        <aside>
+            <h2>Bone Structure Details</h2>
+            <div id="anatomy-info">
+                Click on a bone to learn more about it!
+            </div>
+        </aside>
+    </main>
+    <footer>
+        <p>© 2024 Feline Skeletal System</p>
+    </footer>
+    <div id="tooltip"></div>
+    <script type="module" src="./script.js"></script>
+</body>
+</html>
